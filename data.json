@@ -24,7 +24,8 @@
         "island_3",
         "island_4",
         "island_5",
-        "island_6"
+        "island_6",
+        "island_7"
       ]
     },
     {
@@ -325,6 +326,41 @@
     },
     {
       "id": "island_6",
+      "name": "新島",
+      "englishName": "OPEN API & SHARING",
+      "badge": "第五主題島 • 五邊形",
+      "color": "#06b6d4",
+      "topColor": "#22d3ee",
+      "sideColor": "#0891b2",
+      "angleDeg": 210,
+      "summary": "透過標準化開放 API 與多格式資料匯出服務，促進跨部門協作與外部開發者社群共創加值應用。",
+      "metrics": [
+        {
+          "label": "開放 API 端點",
+          "value": "145 個"
+        },
+        {
+          "label": "外部串接單位",
+          "value": "82 個"
+        },
+        {
+          "label": "支援下載格式",
+          "value": "JSON / CSV"
+        }
+      ],
+      "sections": [
+        {
+          "title": "標準化開發者文件與沙盒",
+          "content": "提供完整的 OpenAPI 規格說明與線上測試環境，開發者可在三分鐘內完成金鑰申請並取得範例資料。"
+        },
+        {
+          "title": "跨平台資料生態聯盟",
+          "content": "建立資料交換回饋機制，鼓勵研究機構、新創團隊與公民社群共同驗證並豐富資料內涵。"
+        }
+      ]
+    },
+    {
+      "id": "island_7",
       "name": "應用實績與藍圖島",
       "englishName": "IMPACT & ROADMAP",
       "badge": "第六主題島 • 五邊形",
