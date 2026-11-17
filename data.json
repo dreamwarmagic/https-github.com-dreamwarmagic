@@ -109,7 +109,7 @@
   ],
   "centerIsland": {
     "id": "hub",
-    "name": "七賢大樓",
+    "name": "🏡七賢大樓",
     "englishName": "CENTRAL DATA HUB",
     "badge": "核心中樞 • 放射連通六島",
     "color": "#2563eb",
@@ -131,10 +131,12 @@
       }
     ],
     "sections": [
-      {
-        "title": "專案背景與核心定位",
-        "content": "本平台以空間化群島隱喻複雜的資料架構，訪客可操作專屬小人沿著放射狀與環狀木橋自由穿梭，逐一檢視各主題領域的詳細介紹。"
-      },
+     {
+  "title": "商辦大樓",
+  "content": "本大樓以空間化群島隱喻大樓內樓管管理的架構，訪客可操作專屬小人沿著放射狀與環狀木橋自由穿梭，逐一檢視各主題領域的詳細介紹。",
+  "image": "https://raw.githubusercontent.com/dreamwarmagic/https-github.com-dreamwarmagic/refs/heads/main/1.png",
+  "imageAlt": "相關建築外觀照片"
+},
       {
         "title": "全域資料治理標準",
         "content": "建立統一的詮釋資料（Metadata）目錄、版本追蹤機制與自動化品質檢核管線，確保所有衛星島嶼的資訊即時同步且可追溯。"
