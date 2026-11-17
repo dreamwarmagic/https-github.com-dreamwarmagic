@@ -1,0 +1,360 @@
+{
+  "siteTitle": "資料島嶼導覽 3D",
+  "siteSubtitle": "中央資料總覽主島 × 六座五邊形全連通知識島嶼 • 點擊任意島嶼派訪客小人前往探索",
+  "scenarios": [
+    {
+      "id": "overview",
+      "label": "🌐 全島總覽",
+      "description": "俯瞰中央主島與外圍六座五邊形衛星島嶼的放射＋環狀全連通木橋網絡，自由派遣訪客小人漫遊。",
+      "targetIslandId": "hub",
+      "cameraPos": {
+        "x": 0,
+        "y": 29,
+        "z": 36
+      },
+      "cameraLookAt": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "highlightIslands": [
+        "hub",
+        "island_1",
+        "island_2",
+        "island_3",
+        "island_4",
+        "island_5",
+        "island_6"
+      ]
+    },
+    {
+      "id": "core_architecture",
+      "label": "🏛️ 核心架構",
+      "description": "派遣訪客前往中央總覽主島，檢視資料中樞的整體架構、關鍵指標與核心摘要。",
+      "targetIslandId": "hub",
+      "cameraPos": {
+        "x": 0,
+        "y": 15,
+        "z": 19
+      },
+      "cameraLookAt": {
+        "x": 0,
+        "y": 1.6,
+        "z": 0
+      },
+      "highlightIslands": [
+        "hub"
+      ]
+    },
+    {
+      "id": "data_collection",
+      "label": "📡 來源與採集",
+      "description": "沿木橋步行至資料採集島與結構治理島，了解多源異質資料的匯流與清洗規範。",
+      "targetIslandId": "island_1",
+      "cameraPos": {
+        "x": 0,
+        "y": 12.5,
+        "z": 27
+      },
+      "cameraLookAt": {
+        "x": 0,
+        "y": 1.2,
+        "z": 15.5
+      },
+      "highlightIslands": [
+        "island_1",
+        "island_2"
+      ]
+    },
+    {
+      "id": "ai_analytics",
+      "label": "🧠 智慧分析",
+      "description": "巡禮智慧分析島與視覺呈現島，探索預測模型、指標洞察與互動圖表應用。",
+      "targetIslandId": "island_3",
+      "cameraPos": {
+        "x": 22,
+        "y": 12.5,
+        "z": -16
+      },
+      "cameraLookAt": {
+        "x": 13.42,
+        "y": 1.2,
+        "z": -7.75
+      },
+      "highlightIslands": [
+        "island_3",
+        "island_4"
+      ]
+    },
+    {
+      "id": "open_sharing",
+      "label": "🔗 開放共享",
+      "description": "漫步至開放共享島與未來藍圖島，檢視標準化 API 串接與跨領域生態系擴展。",
+      "targetIslandId": "island_5",
+      "cameraPos": {
+        "x": -11,
+        "y": 12.5,
+        "z": -26
+      },
+      "cameraLookAt": {
+        "x": 0,
+        "y": 1.2,
+        "z": -15.5
+      },
+      "highlightIslands": [
+        "island_5",
+        "island_6"
+      ]
+    }
+  ],
+  "centerIsland": {
+    "id": "hub",
+    "name": "七賢大樓",
+    "englishName": "CENTRAL DATA HUB",
+    "badge": "核心中樞 • 放射連通六島",
+    "color": "#2563eb",
+    "topColor": "#3b82f6",
+    "sideColor": "#1d4ed8",
+    "summary": "整座資料群島的心臟地帶，透過六條放射狀木橋與所有外圍五邊形衛星島直接相連，統籌跨領域知識整合與全局狀態監控。",
+    "metrics": [
+      {
+        "label": "納管資料集",
+        "value": "1,280 項"
+      },
+      {
+        "label": "衛星島節點",
+        "value": "6 座連通"
+      },
+      {
+        "label": "即時可用率",
+        "value": "99.98%"
+      }
+    ],
+    "sections": [
+      {
+        "title": "專案背景與核心定位",
+        "content": "本平台以空間化群島隱喻複雜的資料架構，訪客可操作專屬小人沿著放射狀與環狀木橋自由穿梭，逐一檢視各主題領域的詳細介紹。"
+      },
+      {
+        "title": "全域資料治理標準",
+        "content": "建立統一的詮釋資料（Metadata）目錄、版本追蹤機制與自動化品質檢核管線，確保所有衛星島嶼的資訊即時同步且可追溯。"
+      },
+      {
+        "title": "外接 data.json 輕鬆維護",
+        "content": "所有島嶼名稱、介紹段落與指標數據皆獨立抽離於 data.json 檔案中，無需修改任何 3D 程式碼即可隨時擴充更新。"
+      }
+    ]
+  },
+  "satelliteIslands": [
+    {
+      "id": "island_1",
+      "name": "資料採集與感知島",
+      "englishName": "DATA INGESTION",
+      "badge": "第一主題島 • 五邊形",
+      "color": "#10b981",
+      "topColor": "#34d399",
+      "sideColor": "#059669",
+      "angleDeg": 90,
+      "summary": "負責全天候收集來自物聯網感測器、公開資料庫與業務系統的原始數據，建立高吞吐量的即時資料匯流排。",
+      "metrics": [
+        {
+          "label": "每日新增筆數",
+          "value": "450 萬筆"
+        },
+        {
+          "label": "支援協定",
+          "value": "24 種"
+        },
+        {
+          "label": "平均延遲",
+          "value": "< 120ms"
+        }
+      ],
+      "sections": [
+        {
+          "title": "多源異質資料接入",
+          "content": "支援 RESTful API、Webhook、串流佇列與批次檔案匯入，自動識別結構化表格與半結構化 JSON 文件。"
+        },
+        {
+          "title": "自動化異常過濾",
+          "content": "在資料進入核心倉儲前即執行格式驗證、重複值剔除與缺失值標記，大幅降低下游分析誤差。"
+        }
+      ]
+    },
+    {
+      "id": "island_2",
+      "name": "結構治理與倉儲島",
+      "englishName": "DATA WAREHOUSE",
+      "badge": "第二主題島 • 五邊形",
+      "color": "#f59e0b",
+      "topColor": "#fbbf24",
+      "sideColor": "#d97706",
+      "angleDeg": 30,
+      "summary": "將龐雜的原始資訊轉化為標準化、分層管理的知識倉儲，並透過嚴謹的權限分級與去識別化技術守護資料安全。",
+      "metrics": [
+        {
+          "label": "標準資料表",
+          "value": "640 張"
+        },
+        {
+          "label": "合規稽核率",
+          "value": "100%"
+        },
+        {
+          "label": "查詢加速比",
+          "value": "8.5 倍"
+        }
+      ],
+      "sections": [
+        {
+          "title": "三層式湖倉一體架構",
+          "content": "區分原始貼源層（Raw）、清洗整合層（Clean）與主題應用層（Mart），兼顧歷史回溯彈性與高併發查詢效能。"
+        },
+        {
+          "title": "隱私保護與血緣追蹤",
+          "content": "內建敏感欄位自動遮罩與端到端資料血緣圖譜，清楚呈現每一項指標的計算公式與上游來源。"
+        }
+      ]
+    },
+    {
+      "id": "island_3",
+      "name": "智慧分析與模型島",
+      "englishName": "AI & ANALYTICS",
+      "badge": "第三主題島 • 五邊形",
+      "color": "#8b5cf6",
+      "topColor": "#a78bfa",
+      "sideColor": "#7c3aed",
+      "angleDeg": 330,
+      "summary": "運用統計推論、機器學習與語意檢索技術，從海量歷史資料中挖掘潛在規律、趨勢預測與異常預警。",
+      "metrics": [
+        {
+          "label": "線上推論模型",
+          "value": "38 組"
+        },
+        {
+          "label": "預測準確率",
+          "value": "94.2%"
+        },
+        {
+          "label": "自動化報告",
+          "value": "每日更新"
+        }
+      ],
+      "sections": [
+        {
+          "title": "時間序列趨勢預測",
+          "content": "針對週期性波動與季節性因子建立多變量預測模型，協助決策團隊提前掌握資源配置需求。"
+        },
+        {
+          "title": "自然語言知識問答",
+          "content": "結合向量檢索與文件索引，讓使用者能以日常語言直接查詢跨領域資料摘要與關鍵數據。"
+        }
+      ]
+    },
+    {
+      "id": "island_4",
+      "name": "視覺呈現與敘事島",
+      "englishName": "VISUAL STORYTELLING",
+      "badge": "第四主題島 • 五邊形",
+      "color": "#ec4899",
+      "topColor": "#f472b6",
+      "sideColor": "#db2777",
+      "angleDeg": 270,
+      "summary": "將抽象的統計數字轉化為直覺易懂的互動圖表、地理空間地圖與沉浸式 3D 導覽體驗，讓大眾輕鬆讀懂資料故事。",
+      "metrics": [
+        {
+          "label": "互動圖表模板",
+          "value": "52 款"
+        },
+        {
+          "label": "跨裝置適配",
+          "value": "RWD 100%"
+        },
+        {
+          "label": "平均停留時間",
+          "value": "4分35秒"
+        }
+      ],
+      "sections": [
+        {
+          "title": "情境導向互動儀表板",
+          "content": "支援多維度交叉篩選、時間軸播放與關鍵事件標註，讓每位訪客都能依自身關注焦點探索細節。"
+        },
+        {
+          "title": "無障礙色彩與排版設計",
+          "content": "採用高對比色覺友善調色盤與清晰資訊層級，確保在桌面螢幕與行動裝置上皆具備舒適閱讀體驗。"
+        }
+      ]
+    },
+    {
+      "id": "island_5",
+      "name": "開放接口與共享島",
+      "englishName": "OPEN API & SHARING",
+      "badge": "第五主題島 • 五邊形",
+      "color": "#06b6d4",
+      "topColor": "#22d3ee",
+      "sideColor": "#0891b2",
+      "angleDeg": 210,
+      "summary": "透過標準化開放 API 與多格式資料匯出服務，促進跨部門協作與外部開發者社群共創加值應用。",
+      "metrics": [
+        {
+          "label": "開放 API 端點",
+          "value": "145 個"
+        },
+        {
+          "label": "外部串接單位",
+          "value": "82 個"
+        },
+        {
+          "label": "支援下載格式",
+          "value": "JSON / CSV"
+        }
+      ],
+      "sections": [
+        {
+          "title": "標準化開發者文件與沙盒",
+          "content": "提供完整的 OpenAPI 規格說明與線上測試環境，開發者可在三分鐘內完成金鑰申請並取得範例資料。"
+        },
+        {
+          "title": "跨平台資料生態聯盟",
+          "content": "建立資料交換回饋機制，鼓勵研究機構、新創團隊與公民社群共同驗證並豐富資料內涵。"
+        }
+      ]
+    },
+    {
+      "id": "island_6",
+      "name": "應用實績與藍圖島",
+      "englishName": "IMPACT & ROADMAP",
+      "badge": "第六主題島 • 五邊形",
+      "color": "#f97316",
+      "topColor": "#fb923c",
+      "sideColor": "#ea580c",
+      "angleDeg": 150,
+      "summary": "彙整各領域落地應用案例、使用者成效回饋與下一階段發展里程碑，展現資料驅動決策的實質影響力。",
+      "metrics": [
+        {
+          "label": "落地示範案例",
+          "value": "29 項"
+        },
+        {
+          "label": "流程效率提升",
+          "value": "+42%"
+        },
+        {
+          "label": "年度規劃進度",
+          "value": "85%"
+        }
+      ],
+      "sections": [
+        {
+          "title": "跨域實證成果精選",
+          "content": "涵蓋智慧環境監測、公共服務資源優化與文化數位典藏等領域，以具體前後對照數據驗證成效。"
+        },
+        {
+          "title": "2026–2027 發展路線圖",
+          "content": "下一階段將擴充即時協作標註、自動化洞察推播與更多主題衛星島嶼，持續完善知識群島版圖。"
+        }
+      ]
+    }
+  ]
+}
