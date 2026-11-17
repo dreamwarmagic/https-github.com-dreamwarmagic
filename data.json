@@ -111,7 +111,7 @@
     "id": "hub",
     "name": "七賢大樓",
     "englishName": "CENTRAL DATA HUB",
-    "badge": "核心中樞 • 放射連通六島",
+    "badge": "核心中樞 • 放射連通八島",
     "color": "#2563eb",
     "topColor": "#3b82f6",
     "sideColor": "#1d4ed8",
@@ -183,7 +183,7 @@
     },
     {
       "id": "island_2",
-      "name": "結構治理與倉儲島",
+      "name": "機電SOP",
       "englishName": "DATA WAREHOUSE",
       "badge": "第二主題島 • 五邊形",
       "color": "#f59e0b",
