@@ -145,8 +145,7 @@
       }
     ]
   },
-  "satelliteIslands": [
-    {
+     {
       "id": "island_1",
       "name": "資料採集與感知島",
       "englishName": "DATA INGESTION",
